@@ -1,6 +1,6 @@
 #  Copyright 2021 Synology Inc.
 
-REGISTRY_NAME=ghcr.io/zebernst
+REGISTRY_NAME=ghcr.io/voxxit
 IMAGE_NAME=synology-csi
 IMAGE_VERSION=v1.1.3
 IMAGE_TAG=$(REGISTRY_NAME)/$(IMAGE_NAME):$(IMAGE_VERSION)

@@ -6,7 +6,7 @@ on:
     branches:
       - main
     tags:
-      - 'v*'
+      - "v*"
   pull_request:
     branches:
       - main
@@ -33,7 +33,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/zebernst/synology-csi
+          images: ghcr.io/voxxit/synology-csi
           labels: org.opencontainers.image.source=https://github.com/zebernst/synology-csi-talos
 
       - name: Build and push

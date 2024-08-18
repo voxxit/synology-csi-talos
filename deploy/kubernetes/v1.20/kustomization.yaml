@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - common-controller/rbac.yml
+  - common-controller/stateful-set.yml
+  - crds/1.yml
+  - crds/2.yml
+  - crds/3.yml
+  - snapshotter/snapshotter.yaml
+  - snapshotter/volume-snapshot-class.yml
+  - controller.yml
+  - csi-driver.yml
+  - namespace.yml
+  - node.yml
+  - storage-class.yml
